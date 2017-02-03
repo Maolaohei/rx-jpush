@@ -1,0 +1,8 @@
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+  <intent-filter>
+    <action name="cn.jpush.android.service.AlarmReceiver" />
+    <action name="cn.jpush.android.service.PushReceiver" />
+    <action name="cn.jpush.service.AlarmReceiver" />
+    <action name="cn.jpush.service.PushReceiver" />
+  </intent-filter>
+</prescription>
